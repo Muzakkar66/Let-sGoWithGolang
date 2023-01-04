@@ -2,18 +2,16 @@ package main
 
 import "fmt"
 
-
-func main()  {
+func main() {
 	fmt.Println("Welcome to the pointers in golang")
 	var pts *int
 
 	fmt.Println(pts)
 
-
 	myNum := 23
 
 	var ptr = &myNum
-	fmt.Println("The value of actual pointer is :", ptr)
+	fmt.Println("The Referance value of actual pointer is :", ptr)
 	fmt.Println("The value of actual pointer is :", *ptr)
 	*ptr = *ptr + 2
 

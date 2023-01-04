@@ -24,7 +24,7 @@ func main() {
 		fallthrough // mean jab case 3 y to sath 4 ko b chla day
 	case 4:
 		fmt.Println("Dice value is 4")
-		fallthrough //issi tara jab 4 chaly to 5 ko b chala dy
+		fallthrough //issi tara jab 4 chaly to 5 ko b chala dy	
 	case 5:
 		fmt.Println("Dice value is 5")
 	case 6:
