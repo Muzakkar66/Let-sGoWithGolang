@@ -25,6 +25,8 @@ func main() {
 	for _, day := range days { //here _ mean comma ok syntex
 		fmt.Println("The days slice value are: ", day)
 	}
+
+	
 	//
 	rougValue := 1
 	//break it in for loop
